@@ -1,30 +1,33 @@
 import React from "react";
-import container1 from "../../images/container1.png";
-import "../../App.css";
+import vedio from '../../images/VIDEO.png'
 
-function BodySec() {
+function BodySec2() {
   return (
     <section
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        marginTop:'75px'
       }}
     >
       <div
         style={{
-          height: "383px",
-          width: "1088px",
+          height: "531px",
+          width: "944px",
           backgroundColor: "",
           marginTop: "105px",
           zIndex: "1",
-          backgroundImage: `url(${container1})`,
+          backgroundImage: `url(${vedio})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right center",
+          display:'flex',
+          justifyContent:'center',
+          alignItems:'center',
+          flexDirection:'column'
         }}
       >
-        <div style={{ width: "489px" }}>
-          <p
+                    <p
             style={{
               fontFamily: "Playfair Display",
               fontWeight: "900",
@@ -33,33 +36,12 @@ function BodySec() {
               lineHeight: "71px",
               marginBlockStart: "1rem",
               marginBlockEnd: "1rem",
+              color:'white'
             }}
           >
-            Create Stunning Email Campaigns
+            Reach More Customers
           </p>
-          <p>
-            Create and launch email campaigns that captivate your customers in
-            just a few clicks.
-          </p>
-          <div style={{ display: "flex", marginTop: "1rem" }}>
-            <button
-              id="bodySecBtn"
-              style={{
-                width: "200px",
-                padding: "12px",
-                border: "2px solid #4BA87D",
-                backgroundColor: "white",
-                color: "#4BA87D",
-                fontFamily: "",
-                fontWeight: "900",
-                fontStyle: "normal",
-                fontSize: "15px",
-                lineHeight: "25px",
-              }}
-            >
-              TRY NOW
-            </button>
-            <button
+          <button
               id="bodySecBtn"
               style={{
                 marginLeft: "50px",
@@ -75,13 +57,11 @@ function BodySec() {
                 lineHeight: "25px",
               }}
             >
-              GET A DEMO
+              LEARN HOW
             </button>
-          </div>
         </div>
-      </div>
     </section>
   );
 }
 
-export default BodySec;
+export default BodySec2;

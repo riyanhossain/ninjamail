@@ -2,6 +2,20 @@
     a{
         display: none;
     }
+    .navBtn{
+        /* width: 120px !important; */
+    }
+    #navLogo{
+        width: 80px !important;
+        height: 50px !important;
+    }
+    #navP{
+        font-size: 20px !important;
+        text-align: center;
+        width: 100px !important;
+        margin-top: 2.6rem;
+
+    }
 
     
 }

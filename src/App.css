@@ -10,3 +10,22 @@ html {
   background-color: #4BA87D !important;
   color: white !important;
 }
+
+@media screen and (max-width:700px) {
+  #container1{
+    background-position: center !important;
+    background-size: contain !important;
+  }
+  #divContainer{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #divContainer2{
+    background-position: center !important;
+    background-size: contain !important;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  }
+  
+}

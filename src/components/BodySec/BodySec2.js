@@ -12,6 +12,7 @@ function BodySec2() {
       }}
     >
       <div
+      id='divConatainer2'
         style={{
           height: "531px",
           width: "944px",

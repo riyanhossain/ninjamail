@@ -12,6 +12,7 @@ function BodySec() {
       }}
     >
       <div
+      id='container1'
         style={{
           height: "383px",
           width: "1088px",
@@ -23,7 +24,7 @@ function BodySec() {
           backgroundPosition: "right center",
         }}
       >
-        <div style={{ width: "489px" }}>
+        <div id='divContainer' style={{ width: "489px" }}>
           <p
             style={{
               fontFamily: "Playfair Display",

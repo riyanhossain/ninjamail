@@ -29,7 +29,7 @@ function NavB() {
             height: "102px",
           }}
         >
-          <img src={logo} alt="" style={{ height: "64px", width: "129px" }} />
+          <img src={logo} alt="" style={{ height: "64px", width: "129px" }} id='navLogo'/>
           <p
             style={{
               fontFamily: "",
@@ -39,6 +39,7 @@ function NavB() {
               fontStyle: "normal",
               width: "163px",
             }}
+            id='navP'
           >
             NinjaMail
           </p>
@@ -116,7 +117,7 @@ function NavB() {
           >
             PARTNERS
           </a>
-          <button style={{width:'168px',color:'white',backgroundColor:'#4BA87D',padding:'9px',fontWeight:'bold',fontSize:'17px',border: 'none'}}>SIGN UP FREE</button>
+          <button className="navBtn" style={{width:'168px',color:'white',backgroundColor:'#4BA87D',padding:'9px',fontWeight:'bold',fontSize:'17px',border: 'none'}}>SIGN UP FREE</button>
         </div>
       </div>
     </nav>

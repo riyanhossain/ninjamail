@@ -4,12 +4,14 @@ import photo2 from "../../images/photo2.png";
 
 function BodySec3() {
   return (
-    <section style={{ marginTop: "98px" }}>
+    <section>
       <div
+      id='feature'
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          marginTop: "98px"
         }}
       >
         <div
@@ -42,7 +44,7 @@ function BodySec3() {
                   platform handles campaigns from start to end.
                 </p>
                 <a
-                  href="#"
+                  href="/"
                   style={{
                     textDecoration: "none",
                     color: "#4BA87D",
@@ -78,7 +80,7 @@ function BodySec3() {
                   renowned for its industry leading team collaboration tools.
                 </p>
                 <a
-                  href="#"
+                  href="/"
                   style={{
                     textDecoration: "none",
                     color: "#4BA87D",

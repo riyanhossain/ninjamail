@@ -53,7 +53,7 @@ function NavB() {
           }}
         >
           <a
-            href="/"
+            href="#feature"
             style={{
               fontWeight: "800",
               fontSize: "17px",

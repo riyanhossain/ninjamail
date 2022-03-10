@@ -1,20 +1,22 @@
 import React from "react";
 import photo1 from "../../images/photo1.png";
 import photo2 from "../../images/photo2.png";
+import "../../App.css";
 
 function BodySec3() {
   return (
     <section>
       <div
-      id='feature'
+        id="feature"
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: "98px"
+          marginTop: "98px",
         }}
       >
         <div
+          id="div3container"
           style={{
             height: "533px",
             width: "1098px",
@@ -58,7 +60,10 @@ function BodySec3() {
               </div>
             </div>
           </div>
-          <div style={{ width: "33.3%", backgroundColor: "", height: "533px" }}>
+          <div
+            id="div3card2"
+            style={{ width: "33.3%", backgroundColor: "", height: "533px" }}
+          >
             <div
               style={{
                 width: "320px",
@@ -100,29 +105,29 @@ function BodySec3() {
               height: "533px",
               display: "flex",
               alignItems: "center",
-
             }}
           >
-              <div style={{display:'flex',flexDirection:'column'}}>
+            <div id="div3card3" style={{ display: "flex", flexDirection: "column" }}>
               <p
-              style={{
-                fontFamily: "Playfair Display",
-                fontWeight: "900",
-                fontStyle: "normal",
-                fontSize: "44px",
-                lineHeight: "48px",
-                marginBlockStart: "0rem",
-                marginBlockEnd: "0rem",
-              }}
-            >
-              The source for proven, engaging email campaigns
-            </p>
-            <p>
-              Whether you’re a startup, small business, e-commerce store, or
-              want to promote your app, NinjaMail has the feature set tailored
-              for your business.
-            </p>
-              </div>
+              id="div3card3P"
+                style={{
+                  fontFamily: "Playfair Display",
+                  fontWeight: "900",
+                  fontStyle: "normal",
+                  fontSize: "44px",
+                  lineHeight: "48px",
+                  marginBlockStart: "0rem",
+                  marginBlockEnd: "0rem",
+                }}
+              >
+                The source for proven, engaging email campaigns
+              </p>
+              <p>
+                Whether you’re a startup, small business, e-commerce store, or
+                want to promote your app, NinjaMail has the feature set tailored
+                for your business.
+              </p>
+            </div>
           </div>
         </div>
       </div>

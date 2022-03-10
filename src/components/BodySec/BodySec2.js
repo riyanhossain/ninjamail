@@ -12,7 +12,7 @@ function BodySec2() {
       }}
     >
       <div
-      id='divConatainer2'
+      id='divContainer2'
         style={{
           height: "531px",
           width: "944px",
@@ -29,6 +29,7 @@ function BodySec2() {
         }}
       >
         <p
+        id='divP2'
           style={{
             fontFamily: "Playfair Display",
             fontWeight: "900",
@@ -45,7 +46,7 @@ function BodySec2() {
         <button
           id="bodySecBtn"
           style={{
-            marginLeft: "50px",
+
             width: "200px",
             padding: "12px",
             border: "2px solid #4BA87D",
